@@ -1,0 +1,36 @@
+{
+  "name": "babel-plugin-transform-object-from-destructuring",
+  "version": "1.0.0",
+  "description": "Babel plugin that allows you to extract an object/array from a destructuring expression",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --source-maps",
+    "prepublish": "npm run build",
+    "release": "babel src --out-dir dist",
+    "dev": "npm run build -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matzeeable/babel-plugin-transform-object-from-destructuring.git"
+  },
+  "keywords": [
+    "babel-plugin",
+    "destructuring"
+  ],
+  "author": "Matthias Günter <support@matthias-web.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matzeeable/babel-plugin-transform-object-from-destructuring/issues"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "homepage": "https://github.com/matzeeable/babel-plugin-transform-object-from-destructuring#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
