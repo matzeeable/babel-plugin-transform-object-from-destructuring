@@ -55,20 +55,20 @@ let myTest = [ test1, , test3 ] = myArray;
 
 ```json
 {
-  "plugins": ["babel-plugin-transform-object-from-destructuring"]
+  "plugins": ["transform-object-from-destructuring"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel --plugins babel-plugin-transform-object-from-destructuring script.js
+$ babel --plugins transform-object-from-destructuring script.js
 ```
 
 ### Via Node API
 
 ```javascript
 require('babel').transform('code', {
-  plugins: ['babel-plugin-transform-object-from-destructuring']
+  plugins: ['transform-object-from-destructuring']
 });
 ```
