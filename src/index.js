@@ -22,7 +22,7 @@ export default function(babel) {
 
 	function copyProperty(property) {
 		// Do not allow rest property
-		if (t.isRestProperty(property) || t.isRestElement(property)) {
+		if (t.isRestElement(property)) {
 			throw property.buildCodeFrameError(
 				"You are not allowed to transform an object destructuring with rest property.");
 		}
