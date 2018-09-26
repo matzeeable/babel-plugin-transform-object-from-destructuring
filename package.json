@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-object-from-destructuring",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Babel plugin that allows you to extract an object/array from a destructuring expression",
   "main": "dist/index.js",
   "scripts": {
